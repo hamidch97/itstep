@@ -1,5 +1,4 @@
 
-
 word = input("enter the word")
 inv = ""
 for x in word:

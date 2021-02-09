@@ -1,6 +1,6 @@
 try:
     num = int(input("enter number"))
-    # it's the rest of num/2
+    # r it's the rest of num/2
     r = num % 2
     if num > 0:
         print(num, "is a positive number")

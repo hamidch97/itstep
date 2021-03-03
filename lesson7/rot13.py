@@ -20,4 +20,4 @@ for v in alphabet:
 
     res += chr(message)
 print(res)
-res_f = (input("eter your password"))
+

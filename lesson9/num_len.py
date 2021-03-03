@@ -1,5 +1,12 @@
-def num_len(*args):
-    return len(args)
+import random
+a = random
+p
 
 
-print(num_len(55, 2, 4, 8, 6, 2, 8))
+
+
+# def num_len(*args):
+#     return len(args)
+#
+#
+# print(num_len(55, 2, 4, 8, 6, 2, 8))

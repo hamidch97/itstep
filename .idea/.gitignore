@@ -3,3 +3,4 @@
 /workspace.xml
 # CodeStream ignored files
 /../../itstep\.idea/codestream.xml
+/test/

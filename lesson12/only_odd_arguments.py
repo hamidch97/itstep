@@ -1,7 +1,11 @@
 def only_odd_argements(fun):
-    def source_fun(*a,**b):
-
-            return fun(*a)
+    def source_fun(*a, **b):
+        for i in a:
+            if i % 2 != 0:
+                return fun(*a, **b)
+        for i in a:
+            if i % 2 != 0:
+                return fun(*a, **b)
 
         else:
             print("add odd numbers please")
@@ -14,11 +18,12 @@ def add(a, b):
     return a + b
 
 
-add(5, 5)
+add(4, 4)
 
-# @only_odd_argements
-# def mltiply(a, b, c, d, e):
-#     return a * b * c * d * e
-#
-#
-# mltiply(1, 2, 3, 4, 5)
+
+@only_odd_argements
+def mltiply(a, b, c, d, e):
+    return a * b * c * d * e
+
+
+print(mltiply(2, 2, 3, 4, 5))

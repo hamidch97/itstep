@@ -1,14 +1,16 @@
-def get_next_multiple(func):
-    def source_fun(*a):
-        b= a*2
-        while a!=0:
-             b = a
-        return func(*a)
-    return source_fun
-
-
+def get_next_multiple(n):
+    for n in range(1, 10):
+        yield print(n * 2)
 
 
 gen_multiple_of_two = get_next_multiple(2)
-print(next(gen_multiple_of_two))
-print(next(gen_multiple_of_two))
+next(gen_multiple_of_two)
+next(gen_multiple_of_two)
+next(gen_multiple_of_two)
+next(gen_multiple_of_two)
+
+gen_multiple_of_thirteen = get_next_multiple(13)
+next(gen_multiple_of_thirteen)
+next(gen_multiple_of_thirteen)
+next(gen_multiple_of_thirteen)
+next(gen_multiple_of_thirteen)

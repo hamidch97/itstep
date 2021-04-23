@@ -1,5 +1,11 @@
-def highlight(text: str, str_to_select: str,decoration: str) -> str:
-    decoration = text.endswith(str_to_select,,len(text)+1)
-    return decoration
-quote = "guns.lot of guns"
-print(highlight(quote,"guns" ,"**"))
+def highlight(text: str, str_to_select: str, decoration: str) -> str:
+    res = ""
+    for i in text:
+        if i == str_to_select:
+            str_to_select.replace("**"+str_to_select+"**")
+            print(text)
+
+
+
+quote = "guns.lot of Guns"
+print(highlight(quote, "guns", "**"))

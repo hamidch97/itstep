@@ -62,7 +62,6 @@ class Employees:
 
 
 if __name__ == "__main__":
-    user_list = ["first name", "last name", "titel", "email", "phone number"]
     running = True
     while running:
         user = input(

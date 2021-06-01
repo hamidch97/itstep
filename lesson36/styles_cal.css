@@ -1,0 +1,15 @@
+body {
+    background: skyblue;
+}
+*{
+    box-sizing:border-box ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.wrap{
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: black;
+    padding: 15px;
+}

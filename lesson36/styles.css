@@ -1,0 +1,48 @@
+header{
+    border: black solid;
+}
+div#content div {
+    display:inline-block;
+    width: 47%;
+    list-style-type: none;
+    vertical-align: top;
+}
+div#content div.left-box{
+    
+    vertical-align:auto;
+    padding: 15px;
+    
+}
+div#content div.left-box div.div-one article {
+    
+    vertical-align: text-top;
+    text-align: start;
+    padding: 15px;
+
+   
+}
+
+div#content div.right-box{
+    vertical-align: auto;
+    
+    padding: 15px;
+}
+div#content div.left-box div.div-two article {
+    vertical-align: top;
+    text-align: start;
+    padding: 15px;
+    
+
+}
+div#content div.left-box div.div-two img {
+    image-resolution: 50px;
+    border-image-width: auto;
+    background-position: left;
+    padding: 15px;
+    
+
+}
+
+footer {
+    color: red;
+}
